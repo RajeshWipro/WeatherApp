@@ -10,9 +10,14 @@
 
 @interface AppDelegate ()
 
+@property(nonatomic,strong) NSMutableArray *arrWeatherData;
+
 @end
 
 @implementation AppDelegate
+
+@synthesize arrWeatherData;
+@synthesize arrCompleteWeatherData;
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

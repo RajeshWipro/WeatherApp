@@ -7,8 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "WeatherMetaData.h"
+#import "WeatherCell.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<UITableViewDataSource,UITableViewDelegate>
+
+
+
+
+
 
 
 @end
